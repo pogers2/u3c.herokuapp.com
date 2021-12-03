@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.code
+{
+    color: white;
+    font-size: 45px;
+    font-family: "Ubuntu Mono";
+    position: relative;
+    top: -135px;
+}
+.info
+{
+    color: white;
+    font-size: 30px;
+    font-family: "Ubuntu Mono";
+    position: relative;
+    top: -110px;
+}
+.ret
+{
+    color:white;
+    font-size: 25px;
+    font-family: "Ubuntu Mono";
+    position: relative;
+    top: -70px;
+    transition: 0.05s;
+    cursor: pointer;
+}
+.ret:hover {
+    color: #0095eb;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    top: -68.5px;
+  }
